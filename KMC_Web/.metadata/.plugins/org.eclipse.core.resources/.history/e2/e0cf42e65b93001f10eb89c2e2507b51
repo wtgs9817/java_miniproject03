@@ -1,0 +1,47 @@
+package com.scoremanagementprogram.controller.admin;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.scoremanagementprogram.controller.Controller;
+import com.scoremanagementprogram.dbutil.subject.SubjectDAO;
+import com.scoremanagementprogram.dbutil.subject.SubjectVO;
+
+public class insertSubjectController implements Controller {
+
+	public String handleRequest(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		SubjectVO vo = new SubjectVO();
+		SubjectDAO dao = new SubjectDAO();
+		
+		//jsp에서 입력한 정보 추출
+		String id = request.getParameter("id");
+		String year = request.getParameter("year");
+		String semester = request.getParameter("semester");
+		String course = request.getParameter("course");
+		String subjectName = request.getParameter("subject_name");
+		String credit = request.getParameter("credit");
+		String professor = request.getParameter("professor");
+		String score = request.getParameter("score");
+		
+		vo.setId(id);
+		vo.setYear(year);
+		vo.setSemester(semester);
+		vo.setCourse(course);
+		vo.setSubjectName(subjectName);
+		vo.setCredit(credit);
+		vo.setProfessor(professor);
+		vo.setScore(score);
+		
+		int a = dao.getCountStdCredit(vo);
+		System.out.println(a + " 점 !!!");
+		
+		dao.insertSubject(vo);
+		
+		System.out.println("성적정보 입력 성공");
+		
+		
+		return "admin";
+	}
+
+}

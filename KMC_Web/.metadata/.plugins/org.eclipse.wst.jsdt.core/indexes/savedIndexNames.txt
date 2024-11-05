@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\USER\Desktop\KMC_Web\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+933268658.index
+472025757.index
+340330666.index
+3432618783.index
+468401588.index
+1769841184.index
+452246528.index

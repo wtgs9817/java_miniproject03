@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebInitParam"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.controller.ViewResolver"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="javax.websocket.Session"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.controller.HandlerMapping"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.controller.admin.insertUserViewController"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.controller.common.getUserListController"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.controller.login.loginController"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.controller.admin.getStdInformationViewController"/>
+    <fullyQualifiedTypeName name="org.apache.coyote.http11.upgrade.UpgradeServletOutputStream"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.dbutil.subject.SubjectDAO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.dbutil.account.AccountDAO"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.dbutil.account.AccountVO"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.dbutil.common.DatabaseConnector"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.scoremanagementprogram.dbutil.subject.SubjectVO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

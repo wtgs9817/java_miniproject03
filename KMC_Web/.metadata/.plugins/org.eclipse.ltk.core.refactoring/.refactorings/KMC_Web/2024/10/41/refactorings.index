@@ -1,0 +1,15 @@
+1728192173390	Rename resource 'insertUser.jsp'
+1728192220283	Rename resource 'insertUserViewController.java'
+1728192231717	Rename resource 'insertUserController.java'
+1728192327960	Rename resource 'insertAccountViewController.java'
+1728192381152	Rename resource 'insertAccountController.java'
+1728192495580	Rename resource 'insertAccount.jsp'
+1728202304711	Delete element
+1728289904368	Move 'getUserListController.java' to 'admin'
+1728289909172	Move 'getUserViewController.java' to 'admin'
+1728290053933	Delete element
+1728696956369	Move 'META-INF' to 'WEB-INF'
+1728696961381	Move 'META-INF' to 'webapp'
+1728697522176	Move 'getStdInformationViewController.java' to 'admin'
+1728699112338	Rename resource 'getStdInformation.jsp'
+1728712894577	Delete element

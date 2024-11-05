@@ -1,0 +1,11 @@
+1728793217673	Rename resource 'getUser.jsp'
+1728793245264	Rename resource 'getUserList.jsp'
+1728793353240	Rename resource 'getUserListController.java'
+1728793361213	Rename resource 'getUserController.java'
+1728915830776	Rename resource 'getProfStdSubject.jsp'
+1728920999975	Rename resource 'updateStdScore.jsp'
+1728981206688	Move 'webapp' to 'main'
+1729015557126	Delete element
+1729088595019	Move 'loginController.java' to 'common'
+1729088598533	Move 'logoutController.java' to 'common'
+1729088649670	Delete element

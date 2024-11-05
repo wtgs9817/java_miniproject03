@@ -1,0 +1,11 @@
+127.0.0.1 - - [23/Oct/2024:00:00:20 +0900] "GET / HTTP/1.1" 200 911
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:00:23 +0900] "GET / HTTP/1.1" 200 911
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:00:28 +0900] "POST /login.do HTTP/1.1" 200 1329
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:00:34 +0900] "GET /insertSubjectView.do HTTP/1.1" 200 1777
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:00:49 +0900] "POST /insertSubject.do HTTP/1.1" 200 1329
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:00:50 +0900] "GET /insertSubjectView.do HTTP/1.1" 200 1777
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:01:02 +0900] "POST /insertSubject.do HTTP/1.1" 200 1329
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:01:03 +0900] "GET /getSubjectList.do HTTP/1.1" 200 3181
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:01:11 +0900] "GET /getSubject.do?id=20242222&subject_name=%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D HTTP/1.1" 200 2021
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:01:12 +0900] "GET /deleteSubject.do?stdid=20242222&subjectName=%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D HTTP/1.1" 200 1329
+0:0:0:0:0:0:0:1 - - [23/Oct/2024:00:01:16 +0900] "GET /getSubjectList.do HTTP/1.1" 200 2721
